@@ -1,0 +1,269 @@
+/* Banner */
+
+.SliderCon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+    visibility: inherit;
+}
+
+.SliderCon h1,
+.homeAbout h1 {
+    color: #382456;
+    font-size: 72px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.SliderCon h4 {
+    position: relative;
+    display: block;
+    color: #382456;
+    font-size: 30px;
+    line-height: 1.6em;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.SliderCon p {
+    position: relative;
+    display: block;
+    color: #2b2b2b;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Banner */
+
+/* About */
+.homeAbout h3 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #382456;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.archive p {
+    color: #382456;
+    margin-bottom: 0 !important;
+    font-size: 15px;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.AboutBtn {
+    position: relative;
+    display: inline-block;
+    background: #f39314;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 14px 0;
+    transition: all 500ms ease;
+    border-radius: 5px;
+    border: none;
+}
+
+.AboutBtn:hover {
+    background: #382456;
+
+}
+
+/* About */
+
+/* FeaturedProject */
+.FeaturedProject {
+    background-color: #382456;
+}
+
+.FeaturedProject h1 {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FeaturedProject h1 span {
+    font-weight: 400;
+}
+
+.FeaturedProject img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.FeaturedProject img:hover {
+    scale: calc(1.05);
+}
+
+.img-container {
+    position: relative;
+}
+
+.FP_Hovered {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 0;
+    line-height: 17px;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    animation: fadeIn 1s forwards;
+    padding: 15px;
+}
+
+.FP_Hovered h6 {
+    color: #ffffff;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* FeaturedProject */
+/* WhyChose */
+.Whychose {
+    background-image: url('/public/Images/why-choose-bg.jpg');
+    position: relative;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 110px 0 110px;
+    z-index: 0;
+}
+
+.Whychose h2 {
+    color: #382456;
+}
+
+.Whychose .AboutBtn:hover {
+    background: #382456;
+    border: #f39314 solid 1px;
+}
+
+.card-yellow {
+    background-color: #f39314;
+    color: #Fff;
+    padding: 2rem;
+}
+
+.card-yellow p,
+.card-blue p {
+    color: #Fff;
+}
+
+.card-blue {
+    background-color: #382456;
+    padding: 50px 40px 100px !important;
+    height: max-content;
+
+}
+
+.card-blue h1 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-white {
+    background-color: white;
+    padding: 2rem;
+}
+
+/* WhyChose */
+
+/* Testimonials */
+.Testimonials {
+    background-color: #f39314;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.quotes {
+    background-color: #382456;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    padding: 20px 30px;
+    left: 5%;
+}
+
+.quotes img {
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+.TestimonialsCard {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0.6px .06px 3px #000;
+}
+
+.TestimonialsCard img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+}
+
+.Testimonials h1 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Testimonials */
+
+
+@media (max-width:500px) {
+    .SliderCon h1 {
+        font-size: 45px;
+    }
+}

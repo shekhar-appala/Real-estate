@@ -1,0 +1,201 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Header */
+.webicon::before {
+    font-family: "FontAwesome";
+    content: "\f3c5";
+    position: relative;
+    top: 2px;
+    color: #b7b7b7;
+    font-size: 50px;
+    line-height: 50px;
+    transition: all 400ms ease 100ms;
+    padding: 10px;
+}
+
+.webicon:hover::before {
+    color: #f39314;
+}
+
+.mailicon::before {
+    font-family: "FontAwesome";
+    content: "\e4e8";
+    position: relative;
+    top: 2px;
+    color: #b7b7b7;
+    font-size: 50px;
+    line-height: 50px;
+    transition: all 400ms ease 100ms;
+    padding: 10px;
+}
+
+.mailicon:hover::before {
+    color: #f39314;
+}
+
+.Social_Con {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.Social_Con img {
+    width: 40px;
+    margin: 10px;
+}
+
+.Header a {
+    color: #000;
+    text-decoration: a;
+}
+
+
+/* Navbar */
+.NavbarMain {
+    background-color: #382456 !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 3px !important;
+}
+
+.NavbarMain .nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+    transition: color 2s padding 1s;
+    padding: 15px !important;
+    border-left: solid 1px #000 !important;
+   
+}
+.dropdown-item{
+text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #f39314 !important;
+}
+
+.RightArrow::before {
+    font-family: "FontAwesome";
+    content: "\f068\f061";
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    top: 1px;
+    letter-spacing: -1px;
+
+}
+
+.topArrow::before {
+    font-family: "FontAwesome";
+    content: "\f30c";
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    top: 25%;
+    color: #fff;
+
+
+}
+
+.double-quotes::before {
+    font-family: "FontAwesome";
+    content: "\f10d";
+    font-size: 70px;
+    padding-left: 10px;
+    top: 25%;
+    color: #fff;
+
+
+}
+
+.number-animation {
+    transition: all 3s ease-in-out;
+}
+
+.top-to-btm {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s;
+    z-index: 10;
+    background-color: #f39314;
+}
+
+.top-to-btm:hover {
+    background-color: #382456;
+}
+
+/* Footer */
+.Footer {
+    background-color: #382456;
+}
+
+.Footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Footer p {
+    color: #fff;
+}
+
+.Footer h4 {
+    color: #fff;
+    width: max-content;
+    border-bottom: solid 1px #fefefe;
+    padding: 1rem !important;
+}
+
+.Footer h6 {
+    color: #fff;
+    width: max-content;
+    border-bottom: solid 1px #fefefe;
+
+}
+
+.Footer ul li {
+    color: #fff !important;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.Footer ul li:hover {
+    color: #f39314 !important;
+    font-size: 18px;
+}
+
+.copyRight {
+    background-color: #000;
+
+}
+
+.copyRight p {
+    margin-bottom: 0;
+}
+
+.copyRight a {
+    color: #fff !important;
+}
+
+
+/* Footer */
+
+@media (max-width:992px) {
+    .nav-link {
+        border-left: none !important;
+    }
+}
